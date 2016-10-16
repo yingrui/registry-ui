@@ -1,15 +1,15 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ContainersComponent }  from './containers/containers.component';
+import { ImagesComponent }  from './images/images.component';
 
 const appRoutes: Routes = [
   {
     path: '',
-    component: ContainersComponent
+    component: ImagesComponent
   },
   {
     path: 'containers',
-    component: ContainersComponent
+    component: ImagesComponent
   }
 ];
 

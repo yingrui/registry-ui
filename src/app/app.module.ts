@@ -5,12 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { routing } from "./app.routing";
 import { AppComponent } from './app.component';
-import { ContainersComponent } from './containers/containers.component';
+import { ImagesComponent } from './images/images.component';
+import { ImagesService } from "./images.service";
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContainersComponent
+    ImagesComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +19,7 @@ import { ContainersComponent } from './containers/containers.component';
     HttpModule,
     routing
   ],
-  providers: [],
+  providers: [ImagesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
