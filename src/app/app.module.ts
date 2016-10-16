@@ -3,16 +3,20 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { routing } from "./app.routing";
 import { AppComponent } from './app.component';
+import { ContainersComponent } from './containers/containers.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContainersComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
