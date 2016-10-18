@@ -6,7 +6,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 ## Using nvm to provision your development environment
 
-To install or update nvm, you can use the [install script][2] using cURL:
+To install or update nvm, you can use cURL:
 
 ```sh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
@@ -23,6 +23,12 @@ To install and choose node version
 ```sh
 nvm install v6.7.0
 nvm use v6.7.0
+```
+
+To install angular-cli
+
+```sh
+npm install -g angular-cli
 ```
 
 ## Development server
