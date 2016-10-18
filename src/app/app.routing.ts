@@ -8,7 +8,7 @@ const appRoutes: Routes = [
     component: ImagesComponent
   },
   {
-    path: 'containers',
+    path: 'images',
     component: ImagesComponent
   }
 ];
