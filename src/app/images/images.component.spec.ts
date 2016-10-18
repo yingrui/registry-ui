@@ -18,7 +18,7 @@ describe('Component: Containers', () => {
     };
 
     TestBed.configureTestingModule({
-      declarations: [ ImagesComponent ],
+      declarations: [ImagesComponent],
       providers: [{provide: ImagesService, useValue: imagesServiceStub}]
     });
 
